@@ -1,9 +1,9 @@
 <?php
-function colle($x, $y)
+function colle($x, $y,)
 {
-    $value = "| ";
-    for ($i = 3; $i < $x; $i++) {
-        $value .= "  | ";
+    $value = "|";
+    for ($i = 0; $i < $x; $i++) {
+        $value .= "   |";
     }
     $value .= "\n";
     if ($x > 0) {
@@ -18,4 +18,4 @@ function colle($x, $y)
 }
 
 
-colle(6, 4);
+colle(3, 4);
